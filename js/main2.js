@@ -20,6 +20,7 @@ document.getElementById('lista').innerHTML = '';
 
 function testi(e) {
   e.preventDefault();
+  document.getElementById('lista').innerHTML = '';
 var str = document.getElementById('nimi').value;
 
 var res = str.split("");
